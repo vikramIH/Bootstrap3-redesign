@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+	<!-- Website Title & Description for Search Engine purposes -->
+	<title>My Course</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="keywords" content="My Course, Tutorials, online">
+    <meta name="author" content="Vikram Hanji">
+    <meta name="description" content="MyCourse is a learning website">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- GOOGLE   FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Arima Madurai' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
+
+
+	<script src="includes/js/script.js"> </script>
+
+	<!-- Media query CSS--> 
+	<!-- <link href="includes/css/media-query-template.css" rel="stylesheet"> -->
+
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container" id="main">                <!-- website wrapper -->
+
+		<header class="navbar navbar-fixed-top">       <!-- heading, navigation bar -->
+
+			<div class="container">
+				<div class="col-sm-12"><h1>my course </h1> </div>
+				<h4>the learning website</h4>
+
+				<button type="button" class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="nav-collapse collapse navbar-responsive-collapse col-sm-12">   <!-- collapsible navigation bar -->
+					<div class="col-sm-1"><a class="navbar-brand" href="/"> <img src="images/companylogo.jpg" alt=""></a></div>	
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li> <a href="#">First service</a></li>
+								<li> <a href="#">Coaching</a></li>
+								<li class="divider"></li>
+								<li class="dropdown-header">More</li>
+								<li> <a href="#"> Webinars</a></li>
+								<li> <a href="#"> Study material</a></li>
+
+							</ul> <!-- end dropdown-menu -->
+						</li>
+					</ul><!-- end navbar-nav-->
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" name="" placeholder="Search..." id="searchInput">
+
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</form> <!-- end navbar-form  -->
+
+
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+
+								<ul class="dropdown-menu">
+									<li> <a href="#"><span class="glyphicon glyphicon-check"></span> Update Profile</a></li>
+									<li> <a href="#"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+									<li> <a href="#"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+									<li> <a href="#"><span class="glyphicon glyphicon-off"></span> Log out</a></li>
+								</ul> <!-- end dropdown-menu -->
+							</li>
+						</ul> <!-- end nav pull-right -->
+
+					</div> <!-- end nav-collapse -->
+
+				</div> <!-- end container -->
+			</header> <!-- end navbar -->
+
+
+			<main class="carousel slide" id="myCarousel">    <!-- carousel-image gallery -->
+
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!-- Wrapper for carousel -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<img src="images/carousel-image-1.jpg">
+						<div class="carousel-caption">
+							<h4>Some activity head</h4>
+							<p>Rensto ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud. </p>
+						</div>
+					</div>
+					<div class="item" id="slide2">
+						<img src="images/carousel-image-2.jpeg">
+						<div class="carousel-caption">            				
+							<h4>Arduino Project</h4>
+							<p>Solep ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud. </p>
+						</div>
+					</div>
+					<div class="item" id="slide3">
+						<img src="images/carousel-image-3.png">
+						<div class="carousel-caption">            				
+							<h4>Heat treatment process</h4>
+							<p>Morak ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud. </p>
+						</div>
+					</div>
+
+				</div><!-- end carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>	
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</main> <!-- end myCarousel -->
+
+			<mark class="row" id="bigCallout">      <!-- description about website -->
+				<div class="col-12">
+
+					<div class="well well-small visible-sm">
+						<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call us</a>
+					</div> <!-- end well-small -->	
+
+					<div class="well">
+						<div class="page-header">
+							<h1>My Course <small> The Learning Website</small><h1>
+							</div><!-- end page-header -->
+
+							<p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. </p>
+
+							<a href="#" class="btn btn-primary btn-large">Click this big button</a>
+							<a href="#" class="btn btn-primary btn-link">Know more about this button</a>
+
+						</div><!-- end well -->
+					</div><!-- end col-12 -->
+				</mark><!-- end bigCallout -->
+
+
+
+				<div class="row" id="featuresHeading">
+					<div class="col-12">
+						<h2>Courses Offered</h2>
+						<p class="lead">Cincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, uis nostrud exercitation</p>
+					</div><!-- end col-12 -->
+				</div> <!-- end featuresHeading -->
+
+				<section class="row" id="features">
+					<div class="col-sm-4 feature">          <!-- first panel -->
+						<div class="panel">
+
+							<div class="panel-heading">
+								<h3 class="panel-title">JEE Main/Advanced</h3>
+							</div><!-- end panel-heading -->
+
+							<a href=""><img src="images/jeemain.jpg" alt="" class="img-circle"></a>
+
+							<p>Gadfwe we ewwedwe ief weu weu qif iq eef iqueef iqeue iqufq iuqehf efqf fhqufhq huqwe qheuf.</p>
+
+							<a href="" target="_blank" class="btn btn-default btn-block">Check courses</a>
+
+						</div><!-- end panel -->
+					</div><!-- end col-sm-4 -->
+
+					<div class="col-sm-4 feature">         <!-- second panel -->
+						<div class="panel">
+
+							<div class="panel-heading">
+								<h3 class="panel-title">NEET</h3>
+							</div><!-- end panel-heading -->
+
+							<a href=""><img src="images/medical.jpg" alt="" class="img-circle"></a>
+
+							<p>Aiowe we ewwedwe ief weu weu qif iq eef iqueef iqeue iqufq iuqehf efqf fhqufhq huqwe qheuf.</p>
+
+							<a href="" target="_blank" class="btn btn-info btn-block">Check courses</a>
+
+						</div><!-- end panel -->
+					</div><!-- end col-sm-4 -->
+
+					<div class="col-sm-4 feature">            <!-- third panel -->
+						<div class="panel">
+
+							<div class="panel-heading">
+								<h3 class="panel-title">MBA-CAT/IIFT</h3>
+							</div><!-- end panel-heading -->
+
+							<a href=""><img src="images/mba.jpeg" alt="" class="img-circle"></a>
+
+							<p>Pikse we ewwedwe ief weu weu qif iq eef iqueef iqeue iqufq iuqehf efqf fhqufhq huqwe qheuf.</p>
+
+							<a href="" target="_blank" class="btn btn-default btn-block">Register</a>
+
+						</div><!-- end panel -->
+					</div><!-- end col-sm-4 -->
+
+				</section><!-- end features -->
+
+				<mark class="flex-container2">        <!-- hero image -->
+
+					<img src="../../Exercise2/img/heroimage.jpg" alt="">
+
+				</mark>
+
+				<article class="row" id="moreInfo">              <!--dynamic articles -->
+					<div class="col-sm-6">
+
+						<h3>Neat tabbable content</h3>
+						<div class="tabbable">
+
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+								<li><a href="#tab2" data-toggle="tab">Timings</a></li>
+							</ul>
+
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab1">     <!-- first tab -->
+
+									<h4><span class="glyphicon glyphicon-map-marker"></span> Our location<small> More like our favourite surf spot </small></h4>
+
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.6685323704394!2d74.78659696877004!3d13.014194530236553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54864ac075c3459e!2sNITK+Surathkal+Beach!5e0!3m2!1sen!2sin!4v1528171565545" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+									</p>
+								</div><!-- end tab-pane -->
+
+								<div class="tab-pane" id="tab2">      <!-- second tab -->
+
+									<h4>Timings and Other information <small> For all courses</small></h4>
+
+									<img src="images/StayLonger.png" alt="" class="thumbnail pull-left">
+
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+									</p>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+									</p>
+									<hr>
+
+									<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"> Sign up for FREE Demo</span></a>
+
+									<div class="modal fade" id="myModal">        <!-- modal window -->
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button class="close" data-dismiss="modal">&times;</button>
+
+													<h4 class="modal-title">Sign up</h4>
+
+												</div><!-- end modal-header -->
+
+												<div class="modal-body">
+													<h4>FREE trial for 1 month</h4>
+													<p> <img src="images/tutorial.png"></p><br>
+													<h4>Watch limited videos and tutorials</h4>
+													<a href="#" class="btn btn-success pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it" data-content="I knew you would">Watch trial video</a><br><br>
+													<h4>Continue subscription by payment</h4>
+													<a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="#" data-original-title="Woohoo!" rel="tooltip">this one</a>
+
+													<hr>
+													<p> <small class="text-muted">PS. This form doesnt do anything</small></p>
+
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputName">Name</label>
+
+															<div class="col-lg-10">
+																<input class="form-control" type="text" id="inputName" placeholder="Name">
+															</div>
+														</div>
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+
+															<div class="col-lg-10">
+																<input class="form-control" type="email" id="inputEmail" placeholder="Email">
+															</div>
+														</div>
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputEmail">Message</label>
+
+															<div class="col-lg-10">
+																<textarea class="form-control" id="inputMessage" rows="3" placeholder="Message..."></textarea>
+																<button class="btn btn-success pull-right" type="submit">Save</button>				
+															</div>
+														</div>
+
+													</form>
+
+												</div><!-- end modal-body -->
+
+												<div class="modal-footer">
+													<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+												</div>
+
+											</div><!-- end modal-content -->
+										</div> <!-- end modal-dialog -->
+									</div><!-- end myModal -->
+
+								</div><!-- end tab-pane -->
+							</div><!-- end tab-content -->
+
+						</div><!-- end tabbable -->
+
+					</div><!-- end col-sm-6 -->
+
+					<div class="col-sm-6">                         <!-- Another article to the right -->
+						<h3>Some text Info</h3>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+
+						<h4>List Group</h4>
+						<div class="list-group">
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Kale</h4>
+								<p class="list-group-item-text"> abfje ehfwe ueh uweue w  uwu ef w uef uw e  wue fu wue f w uwu uw f wue</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Carrots</h4>
+								<p class="list-group-item-text"> abfje ehfwe ueh uweue w  uwu ef w uef uw e  wue fu wue f w uwu uw f wue</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Sell-cut oats</h4>
+								<p class="list-group-item-text"> abfje ehfwe ueh uweue w  uwu ef w uef uw e  wue fu wue f w uwu uw f wue</p>
+							</a>
+						</div><!-- end list-group -->
+
+						<h5><strong>A small heading</strong></h5>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+					</div><!-- end col-sm-6 -->
+
+				</article><!-- end moreInfo -->
+
+
+
+				<summary class="row" id="moreCourses">
+					<div class="col-12">
+						<h3>Learning Packages</h3>
+						<div class="thumbnails row ">
+
+							<div class="col-sm-6">                         <!-- first thumbnail -->
+								<div class="thumbnail">
+									<img src="images/extra-image-1.jpg" alt="wall-e">
+
+									<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span> Free</div>
+
+									<div class="caption">
+
+										<h3>JEE Main Study Material</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat.</p>
+
+										<p><a href="" class="btn btn-primary btn-small"target="_blank">Buy course</a> <a href="" target="_blank" class="btn btn-small btn-link">Show other FREE content</a></p>
+									</div><!-- end caption -->
+								</div> <!-- end thumbnail -->
+							</div> <!-- end col-5 -->
+
+							<div class="col-sm-6">                            <!-- second thumbnail -->
+								<div class="thumbnail">
+									<img src="images/extra-image-2.jpg" alt="wall-e">
+
+									<div class="label label-danger price"><span class="glyphicon glyphicon-tag"></span> $ 29</div>
+
+									<div class="caption">
+										<h3>Engineering Entrance Premium</h3>
+										<p>Ut enim ad minim ven. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+										<p><a href="" class="btn btn-primary btn-small"target="_blank">Buy course</a> <a href="" target="_blank" class="btn btn-small btn-link">Watch demo</a></p>
+									</div><!-- end caption -->
+								</div> <!-- end thumbnail -->
+							</div> <!-- end col-5 -->
+
+
+						</div><!-- end row -->
+					</div><!-- end col-12 -->
+				</summary><!-- end moreCourses -->
+
+			</div> <!-- end container -->
+
+
+			<footer>                                       <!-- Contact us-footer -->
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-2">
+							<h6>Copyright &copy; 2018 MyCourse</h6>
+						</div><!-- end col-sm-2 -->
+						<div class="col-sm-4">
+							<h6>About Us</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div> <!-- end col-sm-4 -->
+						<div class="col-sm-2">
+							<div class="foot-nav"><h6>Navigation</h6>
+								<ul class="unstyled">
+									<li><a href="">Home</a></li>
+									<li><a href="">Services</a></li>
+									<li><a href="">Links</a></li>
+									<li><a href="">Contact</a></li>
+								</ul></div>
+							</div><!-- end col-sm-2 -->
+							<div class="col-sm-2">
+								<h6>Follow Us</h6>
+								<ul class="unstyled1">
+									<li><a href=""><i class="fa fa-twitter"></i></a></li>
+									<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+									<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div><!-- end col-sm-2 -->
+							<div class="col-sm-2">
+								<h6>Made with <span class="glyphicon glyphicon-heart"></span> by Vikram</h6>
+							</div><!-- end col-sm-2 -->
+						</div><!-- end row -->
+					</div> <!-- end container -->
+				</footer>
+
+
+				<!-- All Javascript at the bottom of the page for faster page loading -->
+
+				<!-- First try for the online version of jQuery-->
+				<script src="http://code.jquery.com/jquery.js"></script>
+
+				<!-- If no online access, fallback to our hardcoded version of jQuery -->
+				<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+				<!-- Bootstrap JS -->
+				<script src="bootstrap/js/bootstrap.min.js"></script>
+
+				<!-- Custom JS -->
+				<script src="includes/js/script.js"></script>
+
+			</body>
+
+			</html>
+
